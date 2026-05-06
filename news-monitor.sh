@@ -1,0 +1,25 @@
+#!/bin/bash
+# Argo Legal Agent — News Monitor
+# Run from Claude Code: claude "run the news monitor"
+# Or schedule via Task Scheduler / cron
+
+echo "============================================"
+echo "ARGO LEGAL — NEWS MONITOR"
+echo "Date: $(date '+%A, %B %d, %Y')"
+echo "============================================"
+echo ""
+echo "Scanning for legal developments relevant to Argo Blockchain..."
+echo ""
+echo "SEARCH TOPICS:"
+echo "  1. SEC rulemaking / enforcement (FPI, Section 16, HFIAA)"
+echo "  2. Nasdaq listing rule changes"
+echo "  3. Crypto / bitcoin mining regulation"
+echo "  4. UK Companies Act / plc governance"
+echo "  5. Argo Blockchain press mentions"
+echo ""
+echo "NOTE: This script is a trigger for Claude Code."
+echo "When run inside Claude Code, the agent will execute"
+echo "web searches on each topic and compile a briefing."
+echo ""
+echo "To run: cd C:\\Users\\scott\\ArgoLegalAgent"
+echo "        claude 'run news-monitor.sh and search for each topic'"
